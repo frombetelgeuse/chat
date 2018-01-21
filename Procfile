@@ -1,1 +1,1 @@
-web: java -jar target/chat-2018-0.0.1-RELEASE.jar
+web: java -jar target/chat-2018-0.8-RELEASE.jar

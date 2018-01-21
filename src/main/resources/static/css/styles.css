@@ -1,0 +1,64 @@
+body {
+	font-family: 'Oswald';
+	width: 480px;
+	margin: auto;
+}
+h1 {
+	font-family: Georgia;
+	margin-left: 30px;
+	letter-spacing: 13px;
+}
+.bubble {
+	background: #FFCC66;
+	border-left: 15px solid #cc6600;
+	padding: 15px 15px;
+	margin: 10px;
+	transition: background 3s;
+	word-wrap: break-word;
+}
+.bubble:hover {
+	background: #cc6600;
+}
+input, textarea {
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #ffcc66;
+	border: 1px solid #cc6600;
+	padding-left: 12px;
+	padding-top: 5px;
+	padding-right: 12px;
+	margin-left: 0;
+}
+.bubble-no-border {
+	border: none;
+}
+input {
+	height: 37px;
+}
+.god-help-me {
+	overflow: hidden;
+}
+.input-for-name {
+
+	width: 150px;
+}
+.right-input {
+}
+button {
+	float: right;
+	border: none;
+	background-color: #cc6600;
+	padding: 10px 100px 10px 25px;
+	font-size: 16px;
+}
+
+.brown {
+	background-color: #cc6600;
+}
+h4 {
+	margin: 5px 30px;
+}
+p {
+	margin: 0 15px 0 15px;
+}
