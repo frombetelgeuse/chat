@@ -91,15 +91,15 @@
       		</configuration>
       		<executions>
       			<execution>
-              <id>install node and npm</id>
-              <goals>
-                <goal>install-node-and-npm</goal>
-              </goals>
-              <configuration>
-                <nodeVersion>v4.4.5</nodeVersion>
-                <npmVersion>3.9.2</npmVersion>
-              </configuration>
-            </execution>
+      				<id>install node and npm</id>
+      				<goals>
+      					<goal>install-node-and-npm</goal>
+      				</goals>
+      				<configuration>
+      					<nodeVersion>v4.4.5</nodeVersion>
+      					<npmVersion>3.9.2</npmVersion>
+      				</configuration>
+      			</execution>
       			<execution>
       				<id>npm run build</id>
       				<goals>
@@ -108,6 +108,12 @@
       				<configuration>
       					<arguments>run build</arguments>
       				</configuration>
+      			</execution>
+      			<execution>
+      				<id>webpack build</id>
+      				<goals>
+      					<goal>webpack</goal>
+      				</goals>
       			</execution>
       		</executions>
       </plugin>
