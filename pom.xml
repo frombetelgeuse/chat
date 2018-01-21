@@ -101,18 +101,18 @@
       				</configuration>
       			</execution>
       			<execution>
-      				<id>npm run build</id>
+      				<id>npm install</id>
       				<goals>
       					<goal>npm</goal>
       				</goals>
       				<configuration>
-      					<arguments>run build</arguments>
+      					<arguments>install</arguments>
       				</configuration>
       			</execution>
       			<execution>
       				<id>webpack build</id>
       				<goals>
-      					<goal>webpack</goal>
+      					<goal>npm run build</goal>
       				</goals>
       			</execution>
       		</executions>
