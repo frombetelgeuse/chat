@@ -67,7 +67,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className="container">
-				<h1>CHAT</h1>
+				<h1>CHAT2</h1>
 				<MessageForm onCreate={this.onCreate} />
 				<MessageList messages={this.state.messages} />
 			</div>

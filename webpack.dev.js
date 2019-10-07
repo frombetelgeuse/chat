@@ -6,4 +6,4 @@ module.exports = merge(common, {
   	devServer: {
      	contentBase: './src/main/resources/static/built'
    	}
- );
+});
